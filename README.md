@@ -1,1 +1,1 @@
-# subjipark.github.io
+# subji.github.io
