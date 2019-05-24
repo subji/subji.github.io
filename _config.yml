@@ -30,7 +30,7 @@ defaults:
       
 # Site Settings
 locale                   : "en-US"
-title                    : "subji's blog"
+title                    : "welcome subji's blog"
 title_separator          : "-"
 name                     : "Jisub park"
 description              : "Developer blog"
