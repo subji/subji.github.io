@@ -81,6 +81,14 @@ bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
+
 # Social Sharing
 twitter:
   username               :
