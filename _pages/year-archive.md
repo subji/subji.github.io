@@ -1,6 +1,6 @@
 ---
-layout: default
-title: My Blog
+layout: archive
+categories: /year-archive
 ---
 
 <!-- This loops through the paginated posts -->
