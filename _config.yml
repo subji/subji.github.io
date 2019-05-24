@@ -282,12 +282,12 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _posts:
   - scope:
       path: "/posts"
       type: posts
     values:
-      layout: single
+      layout: default
       author_profile: true
       read_time: true
       comments: true
