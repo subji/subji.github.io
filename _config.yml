@@ -109,8 +109,8 @@ author:
   name             : "jisub park"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Guri-si, Gyeonggi-do, Korea, Republic of"
-  email            :
+  location         : "Guri, Gyeonggi-do, Korea Republic of"
+  email            : qkrwlrjq@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
