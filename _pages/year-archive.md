@@ -1,4 +1,4 @@
 ---
 layout: archive
-permlink: /year-archive/
+permlink: /posts/
 ---
