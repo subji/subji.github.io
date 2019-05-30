@@ -14,3 +14,6 @@ git config --global credential.helper store
 ```
 git config --global credential.helper cache & 'cache --timeout 86400(1일)'
 ```
+
+# Window 의 경우에는 아래 주소의 프로그램을 받아 설치 후 적용해본다.
+https://github.com/microsoft/Git-Credential-Manager-for-Windows
