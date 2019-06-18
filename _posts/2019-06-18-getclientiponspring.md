@@ -13,7 +13,9 @@ Proxy 된 IP 의 경우 제대로 받아오지 못한다.
 
 앞서 언급한 기타 Server 들의 경우 웹서버 & WAS 에 HTTP 또는 AJP(전용 프로토콜) 으로 요청을 보낸 후 받은 결과를 클라이언트에 재전송하게 된다.
 
-이로 인해 "getRemoteAddr()" 로 받아온 결과는 IPv4 가 아닌 "0:0:0:0:..:1" 과 같은 IPv6 의 형태로 출력하게 된다.
+이로 인해 "getRemoteAddr()" 은 null 을 출력한다. 그러면 어떻게 방법은 없는 걸까? 하고 찾아보니 X-Forwarded-For 등 HTTP Header 에서 받아오는 방법이 있었다.
+
+아래는 X-Forwarded-For 의 간략한 설명과 예제 코드이다.
 
 X-Forwarded-For (XFF) 는 HTTP Header 중 하나로 HTTP Server 에 요청한 Client IP 를 식별하기 위한 방법 중 하나이다.
 
