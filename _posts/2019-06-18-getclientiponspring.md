@@ -9,10 +9,16 @@ tags: [SPRING]
 
 Proxy 된 IP 의 경우 제대로 받아오지 못한다.
 
-이때 아래의 코드를 사용하여 받아오도록 하자.
+그 이유는 웹서버 또는 WAS 이전에 Load Balancers (L4, ...), Proxy Server, Caching Server, HTTP 서버용 WAS Connector 등이 있을 경우 
 
-단, VPN 을 통한 IP 는 받아오지 않는다.
- 
+앞서 언급한 기타 Server 들의 경우 웹서버 & WAS 에 HTTP 또는 AJP(전용 프로토콜) 으로 요청을 보낸 후 받은 결과를 클라이언트에 재전송하게 된다.
+
+이로 인해 "getRemoteAddr()" 로 받아온 결과는 IPv4 가 아닌 "0:0:0:0:..:1" 과 같은 IPv6 의 형태로 출력하게 된다.
+
+X-Forwarded-For (XFF) 는 HTTP Header 중 하나로 HTTP Server 에 요청한 Client IP 를 식별하기 위한 방법 중 하나이다.
+
+일반적으로 Java 에서 Client IP 를 받아오기 위해선 아래와 같은 방법으로 작성한다.
+
 ```
 	HttpServletRequest.getHeader("X-Forwarded-For");
 	HttpServletRequest.getHeader("Proxy-Client-IP");
