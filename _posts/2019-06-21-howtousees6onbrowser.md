@@ -15,14 +15,14 @@ vuejs 를 사용하다가 import & export 문을 사용할 경우가 생겨 사�
 
 방법은 간단하다. 아래 코드에서 처럼 스크립트 태그에 "module" 만 추가해주면 된다.
 
-```
-	<script type="module" src="...">
-```
+~~~html
+<script type="module" src="...">
+~~~
 
 지원하는 브라우저
-- [IE] X
-- [Edge] 17+
-- [Edge Chromium] 75+
-- [Chrome] 72+
-- [Firefox] 66+
-- [Safari] 12.1+
+- **[IE]** X
+- **[Edge]** 17+
+- **[Edge Chromium]** 75+
+- **[Chrome]** 72+
+- **[Firefox]** 66+
+- **[Safari]** 12.1+

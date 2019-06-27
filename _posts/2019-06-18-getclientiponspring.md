@@ -21,21 +21,21 @@ X-Forwarded-For (XFF) 는 HTTP Header 중 하나로 HTTP Server 에 요청한 Cl
 
 일반적으로 Java 에서 Client IP 를 받아오기 위해선 아래와 같은 방법으로 작성한다.
 
-```
-	HttpServletRequest.getHeader("X-Forwarded-For");
-	HttpServletRequest.getHeader("Proxy-Client-IP");
-	HttpServletRequest.getHeader("WL-Proxy-Client-IP");
-	HttpServletRequest.getHeader("HTTP_CLIENT_IP");
-	HttpServletRequest.getHeader("HTTP_X_FORWARDED_FOR");
+```java
+HttpServletRequest.getHeader("X-Forwarded-For");
+HttpServletRequest.getHeader("Proxy-Client-IP");
+HttpServletRequest.getHeader("WL-Proxy-Client-IP");
+HttpServletRequest.getHeader("HTTP_CLIENT_IP");
+HttpServletRequest.getHeader("HTTP_X_FORWARDED_FOR");
 ```
 
 위 코드를 사용해도 로컬 환경에서는 "0:0:0:0:0:0:0:1" 과 같이 IPv6 로 출력된다. 해당 값은 IPv4 에서 "127.0.0.1" 과 같은 값이다.
 
 Tomcat 의 경우 "{"tomcat directory"}/bin/catalina.bat" 파일에 다음과 같이 작성한다.
 
-```
-	:noJuliConfig
-	set "JAVA_OPTS=%JAVA_OPTS% %LOGGING_CONFIG%" -Djava.net.preferIPv4Stack=true
-	:noJuliManager
-	set "JAVA_OPTS=%JAVA_OPTS% %LOGGING_MANAGER%" -Djava.net.preferIPv4Stack=true
+```java
+:noJuliConfig
+set "JAVA_OPTS=%JAVA_OPTS% %LOGGING_CONFIG%" -Djava.net.preferIPv4Stack=true
+:noJuliManager
+set "JAVA_OPTS=%JAVA_OPTS% %LOGGING_MANAGER%" -Djava.net.preferIPv4Stack=true
 ```

@@ -5,10 +5,11 @@ categories: posts
 tags: [Linux, Zsh] 
 ---
 
-```
-	# Emacs mode
-	bindkey -e
-	
-	# Vi mode
-	bindkey -v
+ZSH 에서 아래와 같은 명령어를 입력한다.
+
+```bash
+# Emacs mode
+bindkey -e
+# Vi mode
+bindkey -v
 ```

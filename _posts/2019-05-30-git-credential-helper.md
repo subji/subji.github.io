@@ -4,16 +4,13 @@ date: 2019-05-30
 categories: posts
 tags: [Git] 
 ---
-
-1. Git Credential 정보 저장 
-```
+## 1. Git Credential 정보 저장 
+```bash
 git config --global credential.helper store
 ```
-
-2. Git Credential 정보 캐시에 저장 (시간 설정 가능)
-```
+## 2. Git Credential 정보 캐시에 저장 (시간 설정 가능)
+```bash
 git config --global credential.helper cache & 'cache --timeout 86400(1일)'
 ```
-
-# Window 의 경우에는 아래 주소의 프로그램을 받아 설치 후 적용해본다.
-https://github.com/microsoft/Git-Credential-Manager-for-Windows
+### Window 의 경우에는 아래 주소의 프로그램을 받아 설치 후 적용해본다.
+> <https://github.com/microsoft/Git-Credential-Manager-for-Windows>
