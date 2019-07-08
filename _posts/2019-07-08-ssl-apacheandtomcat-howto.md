@@ -96,4 +96,28 @@ vim conf/server.xml
 <Connector port="8009" protocol="AJP/1.3" redirectPort="8443" /> <!-- 주석 제거 -->
 ```
 
-끝으로 아파치와 톰캣으로 재시작 하면 적용된다.
+이제 아파치와 톰캣으로 재시작 하면 적용된다.
+```bash
+# restart apache
+sudo systemctl restart apache2
+# restart tomcat
+sh shutdown.sh
+sh startup.sh
+```
+
+마지막으로 http 로 오는 접속을 https 로 리다이렉트해주는 방법이다.
+```bash
+# "{user defined configuration file in apache sites-available}".conf
+<VirtualHost *:80>
+    ServerName "{Domain name}"
+    ServerAlias "{Domain name alias}"
+    ProxyPass / "{url}"
+    ProxyPassReverse / "{reverse url}"
+    # HTTP -> HTTPS Redirect
+    RewriteEngine On
+    RewriteCond %{SERVER_PORT} !443 # '%{HTTPS} off' is not work
+    RewriteRule ^(/(.*))?$ https://%{HTTP_HOST}/$1 [R=301,L] # ^(/(.*))?$ = all url patterns
+
+    SetOutputFilter DEFLATE
+    SetEnvIfNoCase Request_URI "\.(?:gif|jpe?g|png)$" no-gzip
+</VirtualHost>
