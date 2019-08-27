@@ -5,7 +5,7 @@ categories: posts
 tags: ["oracle", "sql"]
 ---
 ### 참고 함수 및 포맷
-```SQL
+```sql
 # REF FUNCTION
 TO_CHAR(TARGET, FORMAT) : 숫자 또는 날짜를 지정한 포맷에 맞게 변환
 TO_DATE(TARGET)         : 문자를 DATE로 변환
@@ -31,8 +31,7 @@ TO_DATE(TARGET)         : 문자를 DATE로 변환
 'AM, PM':   오전, 오후를 표시
 ```
 ### 날짜 계산
-```SQL
-
+```sql
 # EX) SYSDATE = "2019-08-27 13:24:00"
 
 # 특정 날짜와 현재 날짜와의 차이를 NUMBER 형으로 반환
