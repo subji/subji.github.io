@@ -4,11 +4,10 @@ date: 2019-08-27
 categories: posts
 tags: ["oracle", "sql"]
 ---
-> ### 참고
+### 참고 함수 및 포맷
 ```SQL
 # REF FUNCTION
 TO_CHAR(TARGET, FORMAT) : 숫자 또는 날짜를 지정한 포맷에 맞게 변환
-TO_NUMBER(TARGET)       : 문자를 NUMBER로 변환
 TO_DATE(TARGET)         : 문자를 DATE로 변환
 
 # FORMATS
@@ -31,7 +30,7 @@ TO_DATE(TARGET)         : 문자를 DATE로 변환
 'SS'    :   초를 표시
 'AM, PM':   오전, 오후를 표시
 ```
-> ### 날짜 계산
+### 날짜 계산
 ```SQL
 
 # EX) SYSDATE = "2019-08-27 13:24:00"
@@ -93,6 +92,7 @@ SELECT TRUNC(SYSDATE, 'Q') 'N분기' FROM DUAL;
 SELECT TRUNC((TRUNC(SYSDATE) - TRUNC(TRUNC(SYSDATE, 'YY'), 'D')) / 7) + 1 
 # 월요일 기준
 SELECT TRUNC((TRUNC(SYSDATE) - TRUNC(TRUNC(SYSDATE, 'YY'), 'IW')) / 7) + 1
+```
 
 출처:   [오라클 TRUNC 날짜 기능](https://m.blog.naver.com/PostView.nhn?blogId=tsum3000&logNo=80085482543&proxyReferer=http%3A%2F%2Fwww.google.com%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D2%26ved%3D2ahUKEwjrzp7Ix5jkAhXYAYgKHedECDwQFjABegQIAhAB%26url%3Dhttp%253A%252F%252Fm.blog.naver.com%252Ftsum3000%252F80085482543%26usg%3DAOvVaw2cxD2EDcWalzKEo5FBas6L)
         [SYSDATE 기준 일자관련 다양한 표현2](https://rocabilly.tistory.com/273)
