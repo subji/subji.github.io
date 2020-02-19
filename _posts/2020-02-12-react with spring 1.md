@@ -1,10 +1,10 @@
 ---
-title: "Spring Boot (Maven) with React Study"
+title: "Spring Boot (Maven) with React Study day 1"
 date: 2020-02-12
 categories: posts
 tags: ["spring boot", "maven", "react", "Spring Boot & React 연동"]
 ---
-
+<br>
 **목적**
 ===
 - Spring boot 와 React 를 활용하여 간단한 웹 페이지를 만들어보고자 한다.
