@@ -15,7 +15,7 @@ tags: ["jsp"]
 다음과 같은 에러 발생
 
 <div style="width: 100%">
-  <img src="../assets/images/202002271223-fomtinputreadonly.PNG">
+  <img src="https://subji.github.io/assets/images/202002271223-fomtinputreadonly.PNG">
 </div>
 
 ## | 체크리스트

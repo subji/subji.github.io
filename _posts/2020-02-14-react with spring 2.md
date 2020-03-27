@@ -65,7 +65,7 @@ Ctrl + Shift + P (Mac 의 경우 Cmd + Shift + P) 를 눌러 아래 확장프로
 
 설치가 완료되면 VSCode 의 지시에 따라 재시작을 하고 다시 Ctrl + Shift + P 를 누른다.
 <div style="width: 100%;">
-  <img src="../assets/images/spring-boot-initializer.PNG" style="width: 100%">
+  <img src="https://subji.github.io/assets/images/spring-boot-initializer.PNG" style="width: 100%">
 </div>
 위처럼 "Spring initializer: Generate a Maven Project" 로 프로젝트를 생성한다.
 
@@ -78,7 +78,7 @@ Ctrl + Shift + P (Mac 의 경우 Cmd + Shift + P) 를 눌러 아래 확장프로
 그 다음으로는 중요한 항목인데
 
 <div style="width: 100%;">
-  <img src="../assets/images/spring-boot-initializer-select-ilbrary.PNG" style="width: 100%">
+  <img src="https://subji.github.io/assets/images/spring-boot-initializer-select-ilbrary.PNG" style="width: 100%">
 </div>
 
 위처럼 Dependency 를 선택하는 창이 나온다. 여기서 개발자가 원하는 Dependency 를 선택하여 추가할 수 있다.
@@ -91,7 +91,7 @@ Ctrl + Shift + P (Mac 의 경우 Cmd + Shift + P) 를 눌러 아래 확장프로
 ---
 왼쪽 아래 "SPRING-BOOT DASHBOARD" 를 확인하면 생성한 프로젝트명이 표시된다.
 <div style="width: 100%;">
-  <img src="../assets/images/run-spring-boot-project.PNG" style="width: 100%">
+  <img src="https://subji.github.io/assets/images/run-spring-boot-project.PNG" style="width: 100%">
 </div>
 화살표 버튼을 누르거나 프로젝트명을 우클릭하여 run/debug 모드로 실행할 수 있다.
 

@@ -74,10 +74,10 @@ WebFont.load({
 
 **Before**
 <div style="width: 100%">
-  <img src="../assets/images/202003021659-howtoappliedfontsonreact1.png">
+  <img src="https://subji.github.io/assets/images/202003021659-howtoappliedfontsonreact1.png">
 </div>
 
 **After**
 <div style="width: 100%">
-  <img src="../assets/images/202003021700-howtoappliedfontsonreact.png">
+  <img src="https://subji.github.io/assets/images/202003021700-howtoappliedfontsonreact.png">
 </div>

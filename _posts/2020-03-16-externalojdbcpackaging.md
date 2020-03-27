@@ -24,7 +24,7 @@ tags: ["maven", "spring boot"]
 다음과 같이 lib 아래에 외부 jar 파일을 옮겨놓는다.
 
 <div style="width: 100%">
-  <img src="../assets/images/externalojdbcpackaging_1.PNG">
+  <img src="https://subji.github.io/assets/images/externalojdbcpackaging_1.PNG">
 </div>
 
 그리고 pom.xml 에 만들어놓은 디렉토리를 리포지토리로 지정한다.

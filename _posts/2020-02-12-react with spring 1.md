@@ -78,7 +78,7 @@ const element = <img src={user.avatarUrl}></img>;
 - 다음과 같은 프로젝트 구조가 생성
 <br><br>
 <div style="width: 100%; text-align: center;">
-  <img src="../assets/images/react structure.PNG" style="height: 500px;"/>
+  <img src="https://subji.github.io/assets/images/react structure.PNG" style="height: 500px;"/>
 </div>
 
 - "npm start" 명령어로 실행
@@ -88,7 +88,7 @@ const element = <img src={user.avatarUrl}></img>;
 - http://localhost:3000 으로 접속하고 다음 화면이 나오면 정상적으로 동작된것이다.
 <br><br>
 <div style="width: 100%; text-align: center;">
-  <img src="../assets/images/initial scrren.PNG" style="height: 500px;"/>
+  <img src="https://subji.github.io/assets/images/initial scrren.PNG" style="height: 500px;"/>
 </div>
 
 ## **정리**

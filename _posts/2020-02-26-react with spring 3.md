@@ -83,11 +83,11 @@ Maven 또는 Gradle 에서 스프링부트의 빌드와 동시에 리액트 앱�
 그리고 나서 리액트가 설치된 디렉토리를 보면 "build" 라는 디렉토리가 생기고 그안에 js, css, html 이 생성되었을 것이다.
 
 <div style="width: 100%">
-  <img src="../assets/images/202002261039-springwithreact.png">
+  <img src="https://subji.github.io/assets/images/202002261039-springwithreact.png">
 </div>
 
 <div style="width: 100%">
-  <img src="../assets/images/202002261041-springwithreact.png">
+  <img src="https://subji.github.io/assets/images/202002261041-springwithreact.png">
 </div>
 
 이렇게 되면 이제 마지막 단계만 남았다.
@@ -120,7 +120,7 @@ Maven 또는 Gradle 에서 스프링부트의 빌드와 동시에 리액트 앱�
 그러면 다음과 같이 target 디렉토리 아래에 생성될 것이다.
 
 <div style="width: 100%">
-  <img src="../assets/images/202002261046-springwithreact.png">
+  <img src="https://subji.github.io/assets/images/202002261046-springwithreact.png">
 </div>
 
 이제 모든게 다 되었다.
@@ -134,7 +134,7 @@ java -jar *.war
 이제 실행된 주소로 접속해보면 다음 화면이 나온다!
 
 <div style="width: 100%">
-  <img src="../assets/images/202002261049-springwithreact.png">
+  <img src="https://subji.github.io/assets/images/202002261049-springwithreact.png">
 </div>
 
 ## **정리**
