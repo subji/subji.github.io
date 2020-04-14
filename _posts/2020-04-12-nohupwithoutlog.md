@@ -2,7 +2,7 @@
 title: "nohup 명령어 .log 파일없이 실행"
 date: 2020-04-12
 categories: posts
-tags: ["git"]
+tags: ["linux", "shell"]
 ---
 
 일반적으로 명령어 끝에 "&" 를 붙여도 백그라운드 실행이 된다.
