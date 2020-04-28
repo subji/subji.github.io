@@ -11,7 +11,7 @@ Ajax 요청을 보내던 중 "URLDecoder: Illegal hex characters in escape (%) p
 
 찾아보니 URL Decode 과정에서는 % 뒤에 오는 문자열을 16진수로 인식하는데 이 문자열이 변환이 되지 않았을때 발생하는 오류라고 한다.
 
-URL 에서 %가 뭍은 문자열을 Escape 문자열이라고 한다.
+URL 에서 %가 붙은 문자열을 Escape 문자열이라고 한다.
 
 왜 Escape 문자열을 사용하는건가? 라는 질문에는 다음과 같이 간단하게 답할 수 있다.
 
