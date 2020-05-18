@@ -2,7 +2,7 @@
 title: "Apache + Tomcat 연동 및 SSL 적용"
 date: 2019-07-08
 categories: posts
-tags: ["ssl", "apache", "tomcat"]
+tags: ["SSL", "Tomcat", "Apache"]
 ---
 
 첫번째로 apache 와 tomcat 을 연동하기 위해선 jk_mod 라는 아파치 플러그인을 설치해야 한다.

@@ -2,7 +2,7 @@
 title: "Java 특정 요일을 기준으로 주차 구하기(Get number of week where first day of some day)"
 date: 2020-01-15
 categories: posts
-tags: ["java"]
+tags: ["Java"]
 ---
 
 ## | 문제

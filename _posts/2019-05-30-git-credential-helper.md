@@ -2,7 +2,7 @@
 title: "Git 비밀번호 입력 없애는 방법"
 date: 2019-05-30
 categories: posts
-tags: [git] 
+tags: [ "Git" ] 
 ---
 ## 1. Git Credential 정보 저장 
 ```bash

@@ -2,7 +2,7 @@
 title: "React Image Import 하는 방법 (How to import image on React JS)"
 date: 2020-03-03
 categories: posts
-tags: ["react"]
+tags: ["React"]
 ---
 
 리액트로 프로젝트를 만들면서 이미지를 어떻게 불러와야 하느냐에 대한 고민이 있었다.

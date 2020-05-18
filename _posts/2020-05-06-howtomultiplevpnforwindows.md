@@ -2,7 +2,7 @@
 title: "Windows10 여러개의 VPN 설정하는 방법"
 date: 2020-05-06
 categories: posts
-tags: ["vpn", "Windows"]
+tags: ["VPN", "Windows"]
 ---
 작업을 하다보면 여러개의 VPN 을 사용해야 할 때가 있다.
 

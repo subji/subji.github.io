@@ -2,7 +2,7 @@
 title: "How to access Resources (images, etc...) on spring boot (외부에서 파일 접근 방법)"
 date: 2019-11-21
 categories: posts
-tags: ["spring boot"]
+tags: ["SpringBoot"]
 ---
 스프링 부트를 도커에 올려서 사용하다가 외부에서 이미지 접근이 안된다..
 

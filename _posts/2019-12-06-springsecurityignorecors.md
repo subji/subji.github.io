@@ -2,7 +2,7 @@
 title: "Spring Security Cross Domain"
 date: 2019-12-06
 categories: posts
-tags: ["spring secuty"]
+tags: ["SpringSecurity"]
 ---
 프로젝트를 하다보면 항상 마주하는 Cross Domain 문제
 

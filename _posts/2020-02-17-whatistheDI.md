@@ -2,7 +2,7 @@
 title: "Spring Boot 필드 인젝션이 아닌 생성자 인젝션을 해야 하는 이유"
 date: 2020-02-17
 categories: posts
-tags: ["spring boot"]
+tags: ["SpringBoot"]
 ---
 
 Field Inject 대신 생성사 주입을 해야하는 이유?

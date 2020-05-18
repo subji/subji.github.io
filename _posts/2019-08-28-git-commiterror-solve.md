@@ -2,7 +2,7 @@
 title: "Git error: src refspec master does not match any"
 date: 2019-08-28
 categories: posts
-tags: ["git"]
+tags: ["Git"]
 ---
 Git 푸시 도중 아래와 같은 에러가 발생하였다.
 ```

@@ -2,7 +2,7 @@
 title: "Oracle 날짜 관련 쿼리"
 date: 2019-08-27
 categories: posts
-tags: ["oracle"]
+tags: ["Oracle"]
 ---
 ### 참고 함수 및 포맷
 ```sql

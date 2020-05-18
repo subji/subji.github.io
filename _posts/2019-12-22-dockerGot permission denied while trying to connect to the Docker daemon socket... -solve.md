@@ -2,7 +2,7 @@
 title: "Docker Got permission denied while trying to connect to the Docker daemon socket at... 에러 해결"
 date: 2019-12-22
 categories: posts
-tags: ["docker"]
+tags: ["Docker"]
 ---
 도커를 처음설치하고 실행 후 "docker ps -a" 를 입력해보니
 

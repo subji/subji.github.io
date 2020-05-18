@@ -2,7 +2,7 @@
 title: "브라우저에서 ES6 사용 방법"
 date: 2019-06-21
 categories: posts
-tags: [javascript] 
+tags: ["Javascript"] 
 ---
 
 vuejs 를 사용하다가 import & export 문을 사용할 경우가 생겨 사용하던 도중

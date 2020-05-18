@@ -2,7 +2,7 @@
 title: "WSL 에서 lxd package broken 으로 인해 apt upgrade 안될 때"
 date: 2020-03-12
 categories: posts
-tags: ["wsl", "linux"]
+tags: ["WSL"]
 ---
 
 윈도우 서브 시스템 리눅스 (WSL) 은 snap 이 연동이 안된다.

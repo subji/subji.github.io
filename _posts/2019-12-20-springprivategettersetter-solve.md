@@ -2,7 +2,7 @@
 title: "Spring Getter & Setter 보안취약성 관련"
 date: 2019-12-20
 categories: posts
-tags: ["spring", "spring boot", "보안취약성"]
+tags: ["Spring", "SpringBoot"]
 ---
 웹 어플리케이션의 보안취약성 점검을 받고
 

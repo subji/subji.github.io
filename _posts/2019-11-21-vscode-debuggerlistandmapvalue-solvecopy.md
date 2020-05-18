@@ -2,7 +2,7 @@
 title: "List or Map value print just string (vscode debugger에서 list 또는 map이 문자열로만 나올 경우)"
 date: 2019-11-21
 categories: posts
-tags: ["vscode"]
+tags: ["VisualStudioCode"]
 ---
 스프링 프로젝트 중 디버깅이 필요해서 vscode 에서 지원하는 디버깅을 사용했다.
 

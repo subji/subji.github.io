@@ -2,7 +2,7 @@
 title: "Git Push 취소하는 방법"
 date: 2020-03-20
 categories: posts
-tags: ["git"]
+tags: ["Git"]
 ---
 
 잘못 Push 한 깃을 취소하려한다.

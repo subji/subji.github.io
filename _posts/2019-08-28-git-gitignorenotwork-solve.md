@@ -2,7 +2,7 @@
 title: ".gitignore가 적용되지 않는다"
 date: 2019-08-28
 categories: posts
-tags: ["git"]
+tags: ["Git"]
 ---
 git 푸시를 할때 가끔 gitignore 가 제대로 동작하지 않는 경우가 있다.
 
