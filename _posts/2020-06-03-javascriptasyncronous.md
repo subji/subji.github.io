@@ -229,7 +229,7 @@ main().then(subPromise).then()...
 <br><br>
 ### Async/Await
 ---
-콜백함수, Promise 와 같이 비동기 처리 방법이다.
+콜백함수, Promise 와 같이 비동기 처리 방법이다. ES6 에서 새로이 추가되었다.
 
 사용법은 매우 간단하다. 한가지만 주의하면 되는데 await 로 받는 함수는 반드시 Promise 객체로 리턴을 해줘야한다는 것이다.
 
@@ -248,3 +248,6 @@ async function main ()  {
   console.log(result);
 }
 ```
+
+동작 방식은 간단하다. Promise 의 then 을 await 가 처리해주는 것이다. async/await 방식은 주로 여러개의 비동기를 처리할때 많이 쓰인다.
+예외처리는 기본적인 try/catch 를 사용한다. 
