@@ -1,0 +1,124 @@
+---
+title: "MSA Spring Cloud Config"
+date: 2020-06-17
+categories: posts
+tags: ["spring", "micro service architecture"]
+---
+
+MSA 마이크로서비스 아키텍쳐의 줄임말입니다.
+
+이번에는 MSA 의 개념이 아닌 실습 내용으로 Spring Cloud Config 를 사용하여 MSA 내에 전체적인 설정을 관리하는 서비스를 실습해보고자 합니다.
+
+### 1. 설치   
+[Spring initializer](https://start.spring.io/) 에서 Spring Cloud Config, Spring Security 를 추가해서 다운로드합니다.
+
+### 2. Config 서버 활성화
+Configuration 서버임을 알리는 Annotation 을 Main Class 에 작성합니다.
+```java
+@SpringBootApplication
+@EnableConfigServer
+public class ConfigApplication {
+  public static void main(String[] args) {
+    SpringApplication.run(ConfigApplication.class, args);
+  }
+}
+```
+
+### 3. 기본 Application.yml & Application.properties 설정
+흔히들 8888 번을 Configuration 서버의 포트로 많이 사용합니다. 딱히 이유는 없는것 같습니다.
+```yml
+server:
+  port: 8888
+```
+다음으로 Config 파일들을 올릴 Git 주소를 입력합니다.
+```yml
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${Git (Github / others) Url}
+```
+이렇게 했으면 Git 에 Commit 을 해서 올려줍니다.
+
+여기서부터는 선택사항입니다. 
+
+```yml
+# Config 파일을 찾을 위치를 지정합니다.
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared
+
+# 위에서 적어는 server 의 profile 인 native 를 활성화합니다.
+spring:
+  profiles:
+    active: native
+		
+# 나중에 인증 & 인가 서버추가시 필요한 Security 설정입니다.
+spring:
+  security:
+    user:
+      name: ${username}
+      password: ${password}
+```
+이렇게 작성하면 Config 서버의 간단한 설정은 끝입니다.
+
+실행하고 http://localhost:8888 로 접속하면 Security 설정을 한 경우에는 아이디/비밀번호를 묻는 창이 나오고 그 외에는 아무것도 나오지 않습니다.
+
+이제 임의의 서비스가 사용할 Config 파일을 만들어봅니다.
+
+위에서 classpath 아래 shared 디렉토리를 설정파일 경로로 지정해주었으니 그 경로에 파일을 하나 만들어줍니다.
+
+이때, 파일이름이 중요합니다. {application name}-{profiles name}.yml 로 작성하는것이 좋습니다.
+
+Config 서버가 Config 파일을 반환할때 보통 주소의 Context 를 찾아 반환하게 됩니다. 예를들어
+
+http://config:8888/service/dev 는 application 이름이 service, 해당 어플리케이션의 profiles 이름이 dev 인 파일을 찾아 해당 설정을 반환합니다.
+
+그러면 임시의 서비스의 포트만 반환하는 간단한 파일을 만들어줍니다. 저는 service-dev.yml 로 작성하였습니다.
+
+```yml
+# service-dev.yml
+server:
+  port: 8090
+```
+
+그리고 Config 서버의 내용은 Commit 하고 실행해봅니다.
+
+이렇게하면 간단하게 Config 서버 세팅은 끝이 났습니다.
+
+### 4. 테스트
+curl -X GET http://locahost:8888/service/dev 로 확인해봅니다.
+
+### 5. Config Client 세팅
+[Spring initializer](https://start.spring.io/) 에서 Spring Config Client, Spring Security 를 추가 후 다운로드 합니다.
+
+그리고 application.properties 를 bootstrap.yml 로 변경합니다. 그 이유는 bootstrap 의 경우 application.yml 이전에 불러오기 때문입니다.
+
+이제 남은건 설정입니다.
+
+```yml
+spring:
+  application:
+    name: service
+  profiles:
+    active: dev
+    
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+      password: password
+      username: user
+```
+
+이전에 말했다시피 application 이름과 profiles 이름을 작성하였고, Config 서버의 주소를 작성해주었습니다. 
+
+이제 Config Server 를 실행한 상태로 Service 를 실행해봅니다.
+
+그리고 http://locahost:8090 으로 접속해봅니다.
+
+접속이 잘되면 설정을 잘 가져온 것입니다.
