@@ -2,7 +2,7 @@
 title: "MSA Spring Cloud Config"
 date: 2020-06-17
 categories: posts
-tags: ["spring", "micro service architecture"]
+tags: ["spring", "architecture"]
 ---
 
 MSA 마이크로서비스 아키텍쳐의 줄임말입니다.
