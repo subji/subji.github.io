@@ -2,7 +2,7 @@
 title: "Apache Kafka 설치"
 date: 2020-06-11
 categories: posts
-tags: ["kafka"]
+tags: ["Kafka"]
 ---
 
 Apache Kafka 설치 방법

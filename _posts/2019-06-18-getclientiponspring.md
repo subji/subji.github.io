@@ -2,7 +2,7 @@
 title: "SPRING 에서 PROXY 된 IP 까지 받아오는 방법"
 date: 2019-06-18
 categories: posts
-tags: ["Spring"] 
+tags: ["Spring Framework"] 
 ---
 
 기본적으로 HttpServletRequest.getRemoteAddr() 로 받아 올 수 있지만

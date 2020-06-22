@@ -2,7 +2,7 @@
 title: "/tmp/spring.log (Permission denied)"
 date: 2019-11-12
 categories: posts
-tags: ["SpringBoot"]
+tags: ["Spring Framework"]
 ---
 하나의 프로젝트에서 여러개의 프로파일을 관리할때 /tmp/spring.log 가 같이 사용되어 권한 오류가 발생하는 경우가 있다.
 

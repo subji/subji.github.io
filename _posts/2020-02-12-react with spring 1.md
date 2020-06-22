@@ -2,7 +2,7 @@
 title: "Spring Boot (Maven) with React Study day 1"
 date: 2020-02-12
 categories: posts
-tags: ["SpringBoot", "Maven", "React"]
+tags: ["Spring Boot", "Maven", "React"]
 ---
 <br>
 **목적**

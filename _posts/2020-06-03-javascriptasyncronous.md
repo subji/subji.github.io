@@ -2,7 +2,7 @@
 title: "Javascript 비동기란?"
 date: 2020-06-03
 categories: posts
-tags: ["javascript"]
+tags: ["Javascript"]
 ---
 
 ### 비동기란?

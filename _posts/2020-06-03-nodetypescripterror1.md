@@ -2,7 +2,7 @@
 title: "SyntaxError: Cannot use import statement outside a module"
 date: 2020-06-03
 categories: posts
-tags: ["javascript", "typescript", "nodejs"]
+tags: ["Javascript", "Typescript", "Node"]
 ---
 
 NodeJs 와 Typescript 를 사용해서 개발을 하던 도중 제목과 같은 오류를 마주하게 되었다.

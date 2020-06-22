@@ -2,7 +2,7 @@
 title: "Spring Security 권한별 Maximum Sessions 결정 방법"
 date: 2020-06-16
 categories: posts
-tags: ["spring"]
+tags: ["Spring Security"]
 ---
 
 스프링 시큐리티를 사용하다보면 중복 로그인을 막거나 해제해야되는 경우가 있습니다.

@@ -2,7 +2,7 @@
 title: "WSL1 cannot read realtime clock: Invalid argument 오류"
 date: 2020-06-09
 categories: posts
-tags: ["wsl", "linux"]
+tags: ["WSL", "Linux"]
 ---
 
 WSL 을 사용하다가 sleep 명령어에서 다음과 같은 오류가 발생하였다.
