@@ -73,16 +73,10 @@ ResponseEntity<Map<String, Object>> result = restTemplate.exchange(
 
 <br>
 
-## **마치며**
---- 
-
-차근차근 공부하며 사용하는 JPA 인데 어려움이 많다. 그래도 많이 사용하고들 있어서인지 공부할 자료도 많고 문제해결 자료도 많아 도움이 많이 된다.
-
-<br>
-
 ## **참고**
 ---
-[Json and Jackson Stackoverflow 문제](https://keenformatics.blogspot.com/2013/08/how-to-solve-json-infinite-recursion.html)
+
+[How to send Multipart form data with restTemplate Spring-mvc](https://stackoverflow.com/questions/28408271/how-to-send-multipart-form-data-with-resttemplate-spring-mvc/59054323#59054323)
 
 
-[Infinite Recursion with Jackson JSON and Hibernate JPA issue](https://stackoverflow.com/questions/3325387/infinite-recursion-with-jackson-json-and-hibernate-jpa-issue)
+[Resttemplate form/multipart: image + JSON in POST](https://stackoverrun.com/ko/q/8020530)
