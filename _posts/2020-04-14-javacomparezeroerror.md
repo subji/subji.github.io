@@ -2,7 +2,7 @@
 title: "Comparison method violates its general contract! 에러"
 date: 2020-04-14
 categories: posts
-tags: ["Java"]
+tags: ["java"]
 ---
 
 간혹 정렬을 하고자 할때 a > b ? 1 : -1 과 같이 쓸때가 있다.

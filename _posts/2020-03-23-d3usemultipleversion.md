@@ -2,7 +2,7 @@
 title: "D3 여러 버전 사용하는 방법 (How to use multiple version d3.js)"
 date: 2020-03-23
 categories: posts
-tags: ["Javascript", "D3"]
+tags: ["javascript", "d3js"]
 ---
 
 D3 를 사용하는데 레거시 프로젝트에서 v3 과 v4 를 같이 사용하고 있었다.

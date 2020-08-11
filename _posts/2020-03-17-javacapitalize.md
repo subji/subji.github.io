@@ -2,7 +2,7 @@
 title: "Java Capitalize"
 date: 2020-03-17
 categories: posts
-tags: ["Java"]
+tags: ["java"]
 ---
 
 자바에서 "command" => "Command" 로 변경하는 방법

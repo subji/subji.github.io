@@ -2,7 +2,7 @@
 title: "Java Equals '==' 차이"
 date: 2020-04-27
 categories: posts
-tags: ["Java"]
+tags: ["java"]
 ---
 
 보통 String 객체의 경우 equals 를 사용하고

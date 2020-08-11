@@ -2,7 +2,7 @@
 title: "Git 에러 error: pathspec { branch 명 } did not match any file(s) known to git."
 date: 2020-05-20
 categories: posts
-tags: ["Git"]
+tags: ["git"]
 ---
 
 Repository 에 새로운 브랜치를 생성하고 사용하던중 다른 피시에서 새로 생성된 브랜치를 불러오는데

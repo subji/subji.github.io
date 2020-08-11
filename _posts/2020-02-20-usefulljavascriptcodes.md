@@ -2,7 +2,7 @@
 title: "자주 찾아보는? 사용되는 자바스크립트 코드 모음 (Useful Javascript code)"
 date: 2020-02-20
 categories: posts
-tags: ["Javascript"]
+tags: ["javascript"]
 ---
 
 ## | 자주 찾아보는 자바스크립트 코드 모음이다.

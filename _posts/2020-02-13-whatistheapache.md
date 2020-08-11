@@ -2,7 +2,7 @@
 title: "Apache 의 동작 방식"
 date: 2020-02-13
 categories: posts
-tags: ["Apache"]
+tags: ["apache"]
 ---
 
 ## | Apache? 

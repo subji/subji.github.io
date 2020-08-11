@@ -2,7 +2,7 @@
 title: "Vue.js external script(외부 스크립트) 추가 방법"
 date: 2019-07-05
 categories: posts
-tags: ["Vue"]
+tags: ["vue"]
 ---
 
 스프링 & 뷰 프로젝트를 하던 도중 굳이 외부 스크립트를 추가해야 할 일이 생겼다.

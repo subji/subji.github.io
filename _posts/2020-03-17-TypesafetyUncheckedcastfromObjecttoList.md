@@ -2,7 +2,7 @@
 title: "Type safety: Unchecked cast from Object to List<>"
 date: 2020-03-17
 categories: posts
-tags: ["Java"]
+tags: ["java"]
 ---
 
 List<String> list = (List<String>) otherList; 에서

@@ -2,7 +2,7 @@
 title: "Blocking & Non-Blocking, Syncronous & Asyncronous"
 date: 2020-06-03
 categories: posts
-tags: ["Javascript"]
+tags: ["javascript"]
 ---
 ### <b>Blocking & Non-Blocking 과 Syncronous & Asyncronous 를 간단히 알아보고 차이점을 확인해보자.</b>
 --- 

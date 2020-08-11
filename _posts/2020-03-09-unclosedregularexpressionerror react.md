@@ -2,7 +2,7 @@
 title: "unclosed regular expression 에러 처리 방법"
 date: 2020-03-09
 categories: posts
-tags: ["React"]
+tags: ["react"]
 ---
 
 리액트앱을 만들다가 앱에 영향을 미치는 오류는 아니지만

@@ -2,7 +2,7 @@
 title: "MyBatis DBMS 별 LIKE 절"
 date: 2020-05-19
 categories: posts
-tags: ["MyBatis"]
+tags: ["sql", "mybatis"]
 ---
 DBMS 별로 MyBatis 에서 LIKE 절을 사용하는 방법이 조금 다르다.
 

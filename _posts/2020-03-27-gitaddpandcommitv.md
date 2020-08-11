@@ -2,7 +2,7 @@
 title: "Git add -P 와 commit -v 사용"
 date: 2020-03-27
 categories: posts
-tags: ["Git"]
+tags: ["git"]
 ---
 
 일반적으로 git add . 또는 git add --all 을 사용해서 한번에 변경 내용을 스테이징영역으로 올린다.

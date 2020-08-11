@@ -2,7 +2,7 @@
 title: "Java equals & hashCode"
 date: 2020-02-19
 categories: posts
-tags: ["Java"]
+tags: ["java"]
 ---
 
 ## | 문제

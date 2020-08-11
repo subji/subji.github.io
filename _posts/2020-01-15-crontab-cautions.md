@@ -2,7 +2,7 @@
 title: "Crontab 적용 시 주의사항(Precautions to apply Crontab)"
 date: 2020-01-15
 categories: posts
-tags: ["Linux"]
+tags: ["linux"]
 ---
 
 ## | 문제

@@ -2,7 +2,7 @@
 title: "Oracle OVER 명령어"
 date: 2020-05-18
 categories: posts
-tags: ["Oracle"]
+tags: ["db", "oracle"]
 ---
 쿼리 작업을 하다보면 SELECT 절에서 COUNT() 값을 같이 조회해서 내보내고자 할때가 있다.
 

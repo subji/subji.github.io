@@ -2,7 +2,7 @@
 title: "Can't exec \"locale\": No such file or directory at /usr/share/perl5/Debconf/Encoding.pm"
 date: 2020-05-06
 categories: posts
-tags: ["Linux"]
+tags: ["linux"]
 ---
 WSL 을 사용하면서 19.10 에서 20.04 로 판올림을 하는데 중간에 실수로 꺼서 그런지
 

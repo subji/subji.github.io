@@ -2,7 +2,7 @@
 title: "Git fatal: refusing to merge unrelated histories 오류"
 date: 2020-02-12
 categories: posts
-tags: ["Git"]
+tags: ["git"]
 ---
 
 ## | 문제

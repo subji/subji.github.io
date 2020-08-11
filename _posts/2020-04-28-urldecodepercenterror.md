@@ -2,7 +2,7 @@
 title: "URLDecoder: Illegal hex characters in escape (%) pattern"
 date: 2020-04-28
 categories: posts
-tags: ["Javascript"]
+tags: ["javascript"]
 ---
 
 Ajax 요청을 보내던 중 "URLDecoder: Illegal hex characters in escape (%) pattern" 라는 에러가 발생했다.

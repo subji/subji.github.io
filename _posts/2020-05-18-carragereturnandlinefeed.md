@@ -2,7 +2,7 @@
 title: "CRLF (Carriage Return & Line Feed) 란?"
 date: 2020-05-18
 categories: posts
-tags: ["Computer Theory"]
+tags: ["computer theory"]
 ---
 Git add 를 하다가 다음 경고가 출력되었다.
 

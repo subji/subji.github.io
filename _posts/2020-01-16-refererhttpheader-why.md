@@ -2,7 +2,7 @@
 title: "Referer 를 받아올 수 없는 경우들 (In cases where "Referer" does not work.)"
 date: 2020-01-16
 categories: posts
-tags: ["HTTP"]
+tags: ["http"]
 ---
 
 ## | 문제

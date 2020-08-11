@@ -2,7 +2,7 @@
 title: "React WebFonts 적용하기 (Applied WebFonts on React)"
 date: 2020-03-02
 categories: posts
-tags: ["React"]
+tags: ["react"]
 ---
 
 ## | 문제

@@ -2,7 +2,7 @@
 title: "React props type Validation 방법 (How to validate props type React JS)"
 date: 2020-03-03
 categories: posts
-tags: ["React"]
+tags: ["react"]
 ---
 
 props 를 받으면서 타입 체크를 할 필요가 있을때가 있다.

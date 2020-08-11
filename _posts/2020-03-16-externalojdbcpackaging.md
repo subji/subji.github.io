@@ -2,7 +2,7 @@
 title: "외부 Jar 추가 방법"
 date: 2020-03-16
 categories: posts
-tags: ["Maven"]
+tags: ["maven"]
 ---
 
 스프링 부트를 패키징하고 배포하는 과정에서 외부 ojdbc 를 사용해야 하는데 

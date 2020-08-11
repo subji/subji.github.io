@@ -2,7 +2,7 @@
 title: "tail 명령어로 여러개의 로그파일 보기"
 date: 2019-06-27
 categories: posts
-tags: ["Linux"]
+tags: ["linux"]
 ---
 
 ### 아래 명령어를 입력하면 여러개의 로그파일을 로깅할 수 있다.
