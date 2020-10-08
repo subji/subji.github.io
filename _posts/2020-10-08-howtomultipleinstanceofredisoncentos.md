@@ -63,4 +63,4 @@ Redis 를 여러개로 구성하는 이유에 따라 나뉘겠지만, 나는 여
 ## **참고**
 ---
 
-[How to reload authorities on user update with Spring Security](https://stackoverflow.com/questions/9910252/how-to-reload-authorities-on-user-update-with-spring-security)
+[[REDIS] 를 CentOS에 레디 스의 여러 인스턴스를 실행](https://cnpnote.tistory.com/entry/REDIS-%EB%A5%BC-CentOS%EC%97%90-%EB%A0%88%EB%94%94-%EC%8A%A4%EC%9D%98-%EC%97%AC%EB%9F%AC-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EB%A5%BC-%EC%8B%A4%ED%96%89)
