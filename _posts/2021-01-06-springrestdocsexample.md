@@ -635,4 +635,4 @@ public class RestDocsController {
 http://localhost:8080/docs
 ```
 
-![Spring%20Rest%20Docs%20502eb1eb790b4ad79a87d52cfca7c491/Untitled%201.png](https://subji.github.io/assets/images/2021-01-06-springrestdocsexample_2.png)
+![Spring%20Rest%20Docs%20502eb1eb790b4ad79a87d52cfca7c491/Untitled%201.png](https://subji.github.io/assets/images/2021-01-06-springrestdocsexample_1.png)
