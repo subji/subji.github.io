@@ -1,6 +1,8 @@
 ---
 title: "How to access Resources (images, etc...) on spring boot (외부에서 파일 접근 방법)"
 date: 2019-11-21
+layout: single
+classes: wide
 categories: posts
 tags: ["spring boot"]
 ---

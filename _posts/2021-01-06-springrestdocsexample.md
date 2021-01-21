@@ -1,5 +1,7 @@
 ---
 title: "Spring REST Docs 소개 및 예제"
+layout: single
+classes: wide
 date: 2021-01-06
 categories: posts
 tags: ["spring rest docs"]

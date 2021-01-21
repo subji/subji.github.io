@@ -1,6 +1,8 @@
 ---
 title: "Git 에러 error: pathspec { branch 명 } did not match any file(s) known to git."
 date: 2020-05-20
+layout: single
+classes: wide
 categories: posts
 tags: ["git"]
 ---

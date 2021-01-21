@@ -1,6 +1,8 @@
 ---
 title: "WSL1 cannot read realtime clock: Invalid argument 오류"
 date: 2020-06-09
+layout: single
+classes: wide
 categories: posts
 tags: ["wsl", "linux"]
 ---

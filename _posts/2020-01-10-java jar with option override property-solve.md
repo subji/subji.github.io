@@ -1,6 +1,8 @@
 ---
 title: "자바 & 스프링 실행 명렁어에서 속성값을 변경하는 실행 커맨드(how to change property when use java -jar command with option)"
 date: 2020-01-10
+layout: single
+classes: wide
 categories: posts
 tags: ["java", "spring"]
 ---

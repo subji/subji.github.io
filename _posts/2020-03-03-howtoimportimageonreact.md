@@ -1,6 +1,8 @@
 ---
 title: "React Image Import 하는 방법 (How to import image on React JS)"
 date: 2020-03-03
+layout: single
+classes: wide
 categories: posts
 tags: ["react"]
 ---

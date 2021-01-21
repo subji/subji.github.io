@@ -1,6 +1,8 @@
 ---
 title: "이클립스 프로젝트를 VSCODE 에 Import 할 때 이슈"
 date: 2020-09-06
+layout: single
+classes: wide
 categories: posts
 tags: ["vscode", "eclipse"]
 ---

@@ -1,6 +1,8 @@
 ---
 title: "Spring Boot 필드 인젝션이 아닌 생성자 인젝션을 해야 하는 이유"
 date: 2020-02-17
+layout: single
+classes: wide
 categories: posts
 tags: ["spring boot"]
 ---

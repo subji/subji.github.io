@@ -1,6 +1,8 @@
 ---
 title: "Can't exec \"locale\": No such file or directory at /usr/share/perl5/Debconf/Encoding.pm"
 date: 2020-05-06
+layout: single
+classes: wide
 categories: posts
 tags: ["linux"]
 ---

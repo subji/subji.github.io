@@ -1,6 +1,8 @@
 ---
 title: "/tmp/spring.log (Permission denied)"
 date: 2019-11-12
+layout: single
+classes: wide
 categories: posts
 tags: ["spring"]
 ---

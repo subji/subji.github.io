@@ -1,6 +1,8 @@
 ---
 title: "Oracle OVER 명령어"
 date: 2020-05-18
+layout: single
+classes: wide
 categories: posts
 tags: ["db", "oracle"]
 ---

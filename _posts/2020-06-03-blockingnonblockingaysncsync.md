@@ -1,6 +1,8 @@
 ---
 title: "Blocking & Non-Blocking, Syncronous & Asyncronous"
 date: 2020-06-03
+layout: single
+classes: wide
 categories: posts
 tags: ["javascript"]
 ---

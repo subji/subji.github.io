@@ -1,6 +1,8 @@
 ---
 title: "Spring Security 권한별 Maximum Sessions 결정 방법"
 date: 2020-06-16
+layout: single
+classes: wide
 categories: posts
 tags: ["spring security"]
 --- 

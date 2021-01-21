@@ -1,6 +1,8 @@
 ---
 title: "React props type Validation 방법 (How to validate props type React JS)"
 date: 2020-03-03
+layout: single
+classes: wide
 categories: posts
 tags: ["react"]
 ---

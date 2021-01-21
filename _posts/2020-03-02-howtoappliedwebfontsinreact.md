@@ -1,6 +1,8 @@
 ---
 title: "React WebFonts 적용하기 (Applied WebFonts on React)"
 date: 2020-03-02
+layout: single
+classes: wide
 categories: posts
 tags: ["react"]
 ---

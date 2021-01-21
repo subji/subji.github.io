@@ -1,6 +1,8 @@
 ---
 title: "Oracle 날짜 관련 쿼리"
 date: 2019-08-27
+layout: single
+classes: wide
 categories: posts
 tags: ["Oracle"]
 ---

@@ -1,6 +1,8 @@
 ---
 title: "Javascript 비동기란?"
 date: 2020-06-03
+layout: single
+classes: wide
 categories: posts
 tags: ["javascript"]
 ---

@@ -1,6 +1,8 @@
 ---
 title: "SPRING 에서 PROXY 된 IP 까지 받아오는 방법"
 date: 2019-06-18
+layout: single
+classes: wide
 categories: posts
 tags: ["spring"] 
 ---

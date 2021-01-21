@@ -1,6 +1,8 @@
 ---
 title: "JSP 렌더링 오류 (java.lang.NoSuchMethodError: org.springframework.web.servlet.tags.form.InputTag.setReadonly(Ljava/lang/String;)V)"
 date: 2020-02-27
+layout: single
+classes: wide
 categories: posts
 tags: ["jsp"]
 ---

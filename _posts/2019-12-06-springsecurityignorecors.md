@@ -1,6 +1,8 @@
 ---
 title: "Spring Security Cross Domain"
 date: 2019-12-06
+layout: single
+classes: wide
 categories: posts
 tags: ["Spring Security"]
 ---

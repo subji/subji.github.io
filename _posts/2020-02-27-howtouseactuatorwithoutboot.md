@@ -1,6 +1,8 @@
 ---
 title: "Spring Boot 가 아닌 프로젝트에서 Actuator 사용하기 (How to use Actuator without Boot"
 date: 2020-02-27
+layout: single
+classes: wide
 categories: posts
 tags: ["spring"]
 ---

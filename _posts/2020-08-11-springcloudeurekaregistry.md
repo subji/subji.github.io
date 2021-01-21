@@ -1,6 +1,8 @@
 ---
 title: "Eureka self-preservation"
 date: 2020-08-11
+layout: single
+classes: wide
 categories: posts
 tags: ["msa", "eureka"]
 ---

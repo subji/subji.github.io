@@ -1,6 +1,8 @@
 ---
 title: "Java equals & hashCode"
 date: 2020-02-19
+layout: single
+classes: wide
 categories: posts
 tags: ["java"]
 ---

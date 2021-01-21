@@ -1,6 +1,8 @@
 ---
 title: "java.sql.SQLException: Field 'id' doesn't have a default value 문제 해결"
 date: 2020-08-20
+layout: single
+classes: wide
 categories: posts
 tags: ["jpa", "hibernate"]
 ---

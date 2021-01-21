@@ -1,6 +1,8 @@
 ---
 title: "Git 비밀번호 입력 없애는 방법"
 date: 2019-05-30
+layout: single
+classes: wide
 categories: posts
 tags: [ "git" ] 
 ---

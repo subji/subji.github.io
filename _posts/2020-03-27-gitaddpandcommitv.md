@@ -1,6 +1,8 @@
 ---
 title: "Git add -P 와 commit -v 사용"
 date: 2020-03-27
+layout: single
+classes: wide
 categories: posts
 tags: ["git"]
 ---

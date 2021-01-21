@@ -1,5 +1,7 @@
 ---
 title: "Gradle : Could not initialize class org.codehaus.groovy.runtime.InvokerHelper Error"
+layout: single
+classes: wide
 date: 2020-12-28
 categories: posts
 tags: ["gradle"]

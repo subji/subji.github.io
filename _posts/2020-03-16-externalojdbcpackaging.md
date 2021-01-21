@@ -1,6 +1,8 @@
 ---
 title: "외부 Jar 추가 방법"
 date: 2020-03-16
+layout: single
+classes: wide
 categories: posts
 tags: ["maven"]
 ---

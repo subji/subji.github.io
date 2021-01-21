@@ -1,6 +1,8 @@
 ---
 title: "Apache + Tomcat 연동 및 SSL 적용"
 date: 2019-07-08
+layout: single
+classes: wide
 categories: posts
 tags: ["ssl", "tomcat", "apache"]
 ---

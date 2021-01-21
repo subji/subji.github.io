@@ -1,6 +1,8 @@
 ---
 title: "Type safety: Unchecked cast from Object to List<>"
 date: 2020-03-17
+layout: single
+classes: wide
 categories: posts
 tags: ["java"]
 ---

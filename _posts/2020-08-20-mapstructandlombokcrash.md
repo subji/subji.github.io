@@ -1,6 +1,8 @@
 ---
 title: "MapStruct Dependency 추가 시 빌드 오류 문제"
 date: 2020-08-20
+layout: single
+classes: wide
 categories: posts
 tags: ["lombok", "mapstruct", "maven"]
 ---

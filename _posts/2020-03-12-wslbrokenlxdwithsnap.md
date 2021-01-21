@@ -1,6 +1,8 @@
 ---
 title: "WSL 에서 lxd package broken 으로 인해 apt upgrade 안될 때"
 date: 2020-03-12
+layout: single
+classes: wide
 categories: posts
 tags: ["wsl"]
 ---

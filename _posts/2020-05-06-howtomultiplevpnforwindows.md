@@ -1,6 +1,8 @@
 ---
 title: "Windows10 여러개의 VPN 설정하는 방법"
 date: 2020-05-06
+layout: single
+classes: wide
 categories: posts
 tags: ["vpn", "windows"]
 ---

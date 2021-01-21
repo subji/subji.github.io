@@ -1,6 +1,8 @@
 ---
 title: "React props Default value 적용 방법 (How to set default value of props React JS)"
 date: 2020-03-03
+layout: single
+classes: wide
 categories: posts
 tags: ["react"]
 ---

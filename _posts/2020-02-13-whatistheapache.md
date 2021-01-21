@@ -1,6 +1,8 @@
 ---
 title: "Apache 의 동작 방식"
 date: 2020-02-13
+layout: single
+classes: wide
 categories: posts
 tags: ["apache"]
 ---

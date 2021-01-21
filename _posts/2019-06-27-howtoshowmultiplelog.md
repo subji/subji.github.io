@@ -1,6 +1,8 @@
 ---
 title: "tail 명령어로 여러개의 로그파일 보기"
 date: 2019-06-27
+layout: single
+classes: wide
 categories: posts
 tags: ["linux"]
 ---

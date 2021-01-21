@@ -1,6 +1,8 @@
 ---
 title: "Git username, password 저장 방법 (how to save username and password in git)"
 date: 2020-01-17
+layout: single
+classes: wide
 categories: posts
 tags: ["git"]
 ---

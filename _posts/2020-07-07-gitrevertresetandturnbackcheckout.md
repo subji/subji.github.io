@@ -1,6 +1,8 @@
 ---
 title: "Git Revert & Reset, 그리고 Working Directory 되돌리기"
 date: 2020-07-06
+layout: single
+classes: wide
 categories: posts
 tags: ["git"]
 ---

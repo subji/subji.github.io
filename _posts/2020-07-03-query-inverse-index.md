@@ -1,6 +1,8 @@
 ---
 title: "역인덱스"
 date: 2020-07-03
+layout: single
+classes: wide
 categories: posts
 tags: ["db", "sql"]
 ---

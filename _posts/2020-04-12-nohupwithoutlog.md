@@ -1,6 +1,8 @@
 ---
 title: "nohup 명령어 .log 파일없이 실행"
 date: 2020-04-12
+layout: single
+classes: wide
 categories: posts
 tags: ["linux"]
 ---

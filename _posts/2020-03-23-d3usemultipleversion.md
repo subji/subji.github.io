@@ -1,6 +1,8 @@
 ---
 title: "D3 여러 버전 사용하는 방법 (How to use multiple version d3.js)"
 date: 2020-03-23
+layout: single
+classes: wide
 categories: posts
 tags: ["javascript", "d3js"]
 ---

@@ -1,6 +1,8 @@
 ---
 title: "Comparison method violates its general contract! 에러"
 date: 2020-04-14
+layout: single
+classes: wide
 categories: posts
 tags: ["java"]
 ---

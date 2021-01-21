@@ -1,6 +1,8 @@
 ---
 title: "List or Map value print just string (vscode debugger에서 list 또는 map이 문자열로만 나올 경우)"
 date: 2019-11-21
+layout: single
+classes: wide
 categories: posts
 tags: ["Visual Studio Code"]
 ---

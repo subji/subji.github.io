@@ -1,6 +1,8 @@
 ---
 title: "Docker Got permission denied while trying to connect to the Docker daemon socket at... 에러 해결"
 date: 2019-12-22
+layout: single
+classes: wide
 categories: posts
 tags: ["Docker"]
 ---

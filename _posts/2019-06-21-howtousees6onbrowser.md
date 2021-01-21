@@ -1,6 +1,8 @@
 ---
 title: "브라우저에서 ES6 사용 방법"
 date: 2019-06-21
+layout: single
+classes: wide
 categories: posts
 tags: ["javascript"] 
 ---

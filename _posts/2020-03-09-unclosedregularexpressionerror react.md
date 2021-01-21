@@ -1,6 +1,8 @@
 ---
 title: "unclosed regular expression 에러 처리 방법"
 date: 2020-03-09
+layout: single
+classes: wide
 categories: posts
 tags: ["react"]
 ---

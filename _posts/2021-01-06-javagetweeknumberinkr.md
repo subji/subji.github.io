@@ -1,6 +1,8 @@
 ---
 title: "Java 월 주차 구하기"
 date: 2021-01-06
+layout: single
+classes: wide
 categories: posts
 tags: ["java"]
 ---

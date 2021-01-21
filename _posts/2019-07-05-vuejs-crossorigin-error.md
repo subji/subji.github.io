@@ -1,6 +1,8 @@
 ---
 title: "Uncaught (in promise) TypeError Cannot read property 'protocol' of undefined 에러 처리"
 date: 2019-07-05
+layout: single
+classes: wide
 categories: posts
 tags: ["vue"]
 ---

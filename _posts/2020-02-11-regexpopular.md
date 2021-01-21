@@ -1,6 +1,8 @@
 ---
 title: "정규표현식 정리 (진행중..) Regex"
 date: 2020-02-11
+layout: single
+classes: wide
 categories: posts
 tags: ["regular expression"]
 ---

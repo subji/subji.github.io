@@ -1,6 +1,8 @@
 ---
 title: "알아두면 좋은 정규식(Regular Expression) 모음"
 date: 2020-11-27
+layout: single
+classes: wide
 categories: posts
 tags: ["regular expression"]
 ---

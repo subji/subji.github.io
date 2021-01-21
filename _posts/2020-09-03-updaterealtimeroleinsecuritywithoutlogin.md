@@ -1,6 +1,8 @@
 ---
 title: "로그인 다시 안하고 사용자 권한 업데이트 & 변경하기"
 date: 2020-09-03
+layout: single
+classes: wide
 categories: posts
 tags: ["spring security", "spring"]
 ---

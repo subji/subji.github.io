@@ -1,6 +1,8 @@
 ---
 title: "Git Push 취소하는 방법"
 date: 2020-03-20
+layout: single
+classes: wide
 categories: posts
 tags: ["git"]
 ---

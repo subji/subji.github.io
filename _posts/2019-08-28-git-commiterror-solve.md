@@ -1,6 +1,8 @@
 ---
 title: "Git error: src refspec master does not match any"
 date: 2019-08-28
+layout: single
+classes: wide
 categories: posts
 tags: ["git"]
 ---

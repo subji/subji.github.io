@@ -1,6 +1,8 @@
 ---
 title: "Apache 설정 (with SSL)"
 date: 2020-11-27
+layout: single
+classes: wide
 categories: posts
 tags: ["apache", "httpd"]
 ---

@@ -2,6 +2,8 @@
 title: "Java RestTemplate File Upload"
 date: 2020-08-10
 categories: posts
+layout: single
+classes: wide
 tags: ["java"]
 ---
 

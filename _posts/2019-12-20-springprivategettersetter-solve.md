@@ -1,6 +1,8 @@
 ---
 title: "Spring Getter & Setter 보안취약성 관련"
 date: 2019-12-20
+layout: single
+classes: wide
 categories: posts
 tags: ["spring"]
 ---

@@ -1,6 +1,8 @@
 ---
 title: "CentOS 에서 Redis 여러개 실행하기"
 date: 2020-10-08
+layout: single
+classes: wide
 categories: posts
 tags: ["redis"]
 ---

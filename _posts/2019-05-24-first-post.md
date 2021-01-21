@@ -1,7 +1,8 @@
 ---
 title: "Welcome to Jekyll!"
 date: 2019-05-24 12:00 -0600
-layout: archive
+layout: single
+classes: wide
 categories: posts
 tags: index
 ---

@@ -1,6 +1,8 @@
 ---
 title: "Throttling 과 Debouncing 에 대해서"
 date: 2020-07-13
+layout: single
+classes: wide
 categories: posts
 tags: ["javascript"]
 ---

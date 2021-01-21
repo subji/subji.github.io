@@ -1,6 +1,8 @@
 ---
 title: "Javascript SNS(Social Media) 공유 방법 (How to share social media in javascript.)"
 date: 2020-01-17
+layout: single
+classes: wide
 categories: posts
 tags: ["git"]
 ---

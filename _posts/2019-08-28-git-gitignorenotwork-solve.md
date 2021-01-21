@@ -1,6 +1,8 @@
 ---
 title: ".gitignore가 적용되지 않는다"
 date: 2019-08-28
+layout: single
+classes: wide
 categories: posts
 tags: ["git"]
 ---

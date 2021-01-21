@@ -1,6 +1,8 @@
 ---
 title: "MacOS BigSur 에서 Java 환경변수 못찾는 오류"
 date: 2020-12-25
+layout: single
+classes: wide
 categories: posts
 tags: ["java", "mac"]
 ---

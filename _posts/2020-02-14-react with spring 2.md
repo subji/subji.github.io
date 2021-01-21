@@ -1,6 +1,8 @@
 ---
 title: "Spring Boot (Maven) with React Study day 2"
 date: 2020-02-14
+layout: single
+classes: wide
 categories: posts
 tags: ["spring boot", "maven", "react"]
 ---

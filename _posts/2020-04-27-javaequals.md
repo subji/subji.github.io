@@ -1,6 +1,8 @@
 ---
 title: "Java Equals '==' 차이"
 date: 2020-04-27
+layout: single
+classes: wide
 categories: posts
 tags: ["java"]
 ---

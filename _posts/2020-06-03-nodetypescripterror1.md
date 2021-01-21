@@ -1,6 +1,8 @@
 ---
 title: "SyntaxError: Cannot use import statement outside a module"
 date: 2020-06-03
+layout: single
+classes: wide
 categories: posts
 tags: ["javascript", "typescript", "node"]
 ---

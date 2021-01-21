@@ -1,6 +1,8 @@
 ---
 title: "Vue.js external script(외부 스크립트) 추가 방법"
 date: 2019-07-05
+layout: single
+classes: wide
 categories: posts
 tags: ["vue"]
 ---

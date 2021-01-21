@@ -1,6 +1,8 @@
 ---
 title: "MyBatis DBMS 별 LIKE 절"
 date: 2020-05-19
+layout: single
+classes: wide
 categories: posts
 tags: ["sql", "mybatis"]
 ---

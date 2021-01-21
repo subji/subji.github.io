@@ -1,6 +1,8 @@
 ---
 title: "Apache Kafka 설치"
 date: 2020-06-11
+layout: single
+classes: wide
 categories: posts
 tags: ["kafka"]
 ---

@@ -1,6 +1,8 @@
 ---
 title: "URLDecoder: Illegal hex characters in escape (%) pattern"
 date: 2020-04-28
+layout: single
+classes: wide
 categories: posts
 tags: ["javascript"]
 ---

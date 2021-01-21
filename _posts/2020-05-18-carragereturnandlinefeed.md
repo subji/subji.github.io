@@ -1,6 +1,8 @@
 ---
 title: "CRLF (Carriage Return & Line Feed) 란?"
 date: 2020-05-18
+layout: single
+classes: wide
 categories: posts
 tags: ["computer theory"]
 ---

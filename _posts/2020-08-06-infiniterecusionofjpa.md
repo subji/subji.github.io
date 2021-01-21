@@ -2,6 +2,8 @@
 title: "JPA 무한 순환참조 Stack over flow 오류"
 date: 2020-08-06
 categories: posts
+layout: single
+classes: wide
 tags: ["jpa"]
 ---
 
