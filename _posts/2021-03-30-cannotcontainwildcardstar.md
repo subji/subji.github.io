@@ -39,3 +39,9 @@ Content-Type 을 설정하지 않았을 경우에 또는 알 수 없는 경우�
 HttpHeaders headers = new HttpHeaders();
 headers.setContentType(MediaType.APPLICATION_JSON);
 ```
+
+<br>
+<br><br>
+
+# 참고
+[Problem to Understand correct configuration for Http GET Requests on Spring Integration](https://stackoverflow.com/questions/60442040/problem-to-understand-correct-configuration-for-http-get-requests-on-spring-inte)
