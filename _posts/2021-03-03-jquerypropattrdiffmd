@@ -1,0 +1,58 @@
+---
+title: "JQuery .prop() 와 .attr() 차이점"
+layout: single
+classes: wide
+date: 2021-03-03
+categories: posts
+tags: ["javascript", "jquery"]
+---
+
+# 들어가며
+JQuery 1.6 이전 버전에서는 prop() 와 attr() 를 따로 구분하지 않았다. 1.6 이상의 버전 부터는 두 개를 나눠서 사용하게 되었다.
+
+</br>
+</br>
+</br>
+   
+# attr()
+attr() 은 dom 에 적힌 속성 '값' 을 가져온다. 즉, dom 의 상태 또는 상태 값이 아닌 '값' 자체를 가져온다. 
+
+예를들면 다음과 같은 html 코드가 있다고 하자.
+```html
+<div id="test" checked="checked"></div>
+```
+여기서 JQuery 로 checked 의 상태값을 읽어오고자 attr() 을 사용하면 결과값은 다음과 같이 나온다.
+```js
+let checkedAttribute = $('#test').attr('checked'); 
+console.log(checkedAttribute); // "checked"
+```
+원하는 결과 값은 true 혹은 false 였지만, 그냥 속성의 값인 "checked"가 나왔다.   
+즉, attr() 는 상태 값이 아닌 속성 그 자체의 값을 가져오는 것을 알 수 있다.
+
+</br>
+</br>
+</br>
+
+# prop()
+그럼 prop() 는 뭐가 다를까? 위의 예제를 조금 바꿔보면 prop() 의 역할을 알 수 있다.
+```html
+<div id="test" checked></div>
+```
+여기서 JQuery 로 checked 의 상태값을 읽어오고자 attr() 을 사용하면 결과값은 다음과 같이 나온다.
+```js
+let checkedAttribute = $('#test').attr('checked'); 
+console.log(checkedAttribute); // "undefined"
+```
+앞서 말했듯이 attr() 은 속성 그 자체의 값을 가져온다. 위에서 checked 는 아무런 값이 없다. 그래서 undefined 를 출력하게 된다.    
+하지만 prop() 를 사용하면  selectedIndex, tagName, nodeName, nodeType, ownerDocument, defaultChecked, 및 defaultSelected 속성의 상태 값들을 가져올 수 있다.
+```js
+let checkedAttribute = $('#test').prop('checked'); 
+console.log(checkedAttribute); // "true"
+```
+
+</br>
+</br>
+</br>
+
+# 결론
+간단히 말해서 attr() 은 속성의 값을 가져오고, prop() 는 속성의 상태 값을 가져온다.
