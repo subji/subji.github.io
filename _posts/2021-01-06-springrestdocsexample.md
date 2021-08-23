@@ -25,26 +25,51 @@ RESTful 서비스를 문서화 하는 것은 해당 리소스를 설명하는 �
 
 많이 사용되는 RESTful API 문서도구로는 대표적으로 Swagger 가 있다. 아래 표는 Swagger 와 Spring REST Docs 의 비교 내용이다.
 
-[Spring REST Docs vs Swagger ](https://www.notion.so/432e78700d6f47c78e7b6802e6c9dbfb)
+| Spring REST Docs | Swagger |
+-------------------|----------
+|코드의 추가 및 수정이 없다.|코드에 어노테이션등을 추가해야 한다.|
+|테스트 코드 작성이 필요하며, 테스트 성공 시 문서가 생성된다.|테스트 코드 없이 서비스 쪽 코드 및 어노테이션 추가로 문서를 생성할 수 있다.|
+|버전 변화에 유연하고 정확성이 높다.|버전 변화에 맞춰 재 작성해야 하며 이를 하지 않을 때 정확성이 낮다.|
+||
+
 
 자세한 내용은 [여기](https://docs.spring.io/spring-restdocs/docs/2.0.5.RELEASE/reference/html5/#introduction)를 참고한다.
 
+<br/>
+<br/><br/>
+   
+   
 # 시작하기
-
 ---
 
 ## 샘플 애플리케이션
 
 여러 샘플 응용 프로그램을 사용할 수 있다.
-
-[MockMvc](https://www.notion.so/fc85370464aa42a1a179d4605d55f89f)
-
-[WebTestClient](https://www.notion.so/6a7d664d354248f296a123785fe1758b)
-
-[REST Assured](https://www.notion.so/42b31974e4fb476fa53029c2fad1723b)
-
-[고급](https://www.notion.so/749b79487ccf40859ff5ddbe23354ecd)
-
+<br><br>
+### MockMvc
+| Sample | Build System| Description |
+--------------| --- | --- |
+|Spring Data REST|Maven|Spring Data REST 를 사용|
+|Spring HATEOAS|Gradle|Spring HATEOAS 를 사용|
+<br>
+### WebTestClient
+| Sample | Build System| Description |
+--------------| --- | --- |
+|WebTestClient|Gradle|Spring WebFlux 의 WebTestClient 를 사용|
+<br>
+### REST Assured
+| Sample | Build System| Description |
+--------------| --- | --- |
+|REST Assured|Gradle|Spring WebFlux 의 WebTestClient 를 사용|
+<br>
+### 고급
+| Sample | Build System| Description |
+--------------| --- | --- |
+|Slate|Gradle|Markdown 및 Slate 를 사용|
+|TestNG|Gradle|TestNG 사용|
+|JUnit 5|Gradle|JUnit 5 를 사용|
+<br>
+<br>
 ## 요구 사항
 
 - Java 8 >
@@ -328,9 +353,15 @@ include::{snippets}/index/curl-request.adoc[]
 ```
 
 만들어 놓은 .adoc 과 생성된 Snippet 의 연결이 끝났다면 maven install 또는 gradle build 로 .html 파일을 생성해준다. 
+<br>
 
-[제목 없음](https://www.notion.so/7e3f06bc455448a08f98514d91190299)
+| 빌드도구 | 소스 파일| 생성 된 파일 |
+--------------| --- | --- |
+|Maven|src/main/asciidoc/*.adoc|target/generated-docs/*.html|
+|Gradle|src/docs/asciidoc/*.adoc|build/asciidoc/html5/*.html|
 
+<br>
+<br>
 # Simple Example
 
 ---
